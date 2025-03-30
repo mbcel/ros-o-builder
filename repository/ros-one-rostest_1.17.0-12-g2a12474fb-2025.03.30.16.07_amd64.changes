@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 13 Sep 2024 00:00:00 -0000
+Source: ros-one-rostest
+Binary: ros-one-rostest
+Built-For-Profiles: nocheck
+Architecture: amd64
+Version: 1.17.0-12-g2a12474fb-2025.03.30.16.07
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-rostest - Integration test suite based on roslaunch that is compatible with
+Changes:
+ ros-one-rostest (1.17.0-12-g2a12474fb-2025.03.30.16.07) bookworm; urgency=high
+ .
+   * Add new rostest utility subscribetest (#2184 <https://github.com/ros/ros_comm/issues/2184>)
+   * Fix use of undelcared variable t_start (#2183 <https://github.com/ros/ros_comm/issues/2183>)
+   * Fix rostest target names when build directory is inside source directory (#2361 <https://github.com/ros/ros_comm/issues/2361>)
+   * Contributors: Kei Okada, Michael Görner
+Checksums-Sha1:
+ b7a5e4b284d325a3dca9851e0a40bccaf34d499a 9081 ros-one-rostest_1.17.0-12-g2a12474fb-2025.03.30.16.07_amd64.buildinfo
+ db1be602b57cff3e10c9f516e48f8067b6ad4757 38580 ros-one-rostest_1.17.0-12-g2a12474fb-2025.03.30.16.07_amd64.deb
+Checksums-Sha256:
+ 7be12c271cdfb0e79197bae22f4d2e42419152d5cd19907ea463e534db0a7725 9081 ros-one-rostest_1.17.0-12-g2a12474fb-2025.03.30.16.07_amd64.buildinfo
+ 74ea024e11f7be9f7bdce768d76a2af9a9e612489acb54f407299d55108a0b25 38580 ros-one-rostest_1.17.0-12-g2a12474fb-2025.03.30.16.07_amd64.deb
+Files:
+ 0e4d6e0ef176d3b42516cbfab215108e 9081 misc optional ros-one-rostest_1.17.0-12-g2a12474fb-2025.03.30.16.07_amd64.buildinfo
+ 7b69a60df82060c1aeff334538d6760c 38580 misc optional ros-one-rostest_1.17.0-12-g2a12474fb-2025.03.30.16.07_amd64.deb

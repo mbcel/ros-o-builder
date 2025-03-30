@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 13 Sep 2024 00:00:00 -0000
+Source: ros-one-ros-comm
+Binary: ros-one-ros-comm
+Built-For-Profiles: nocheck
+Architecture: amd64
+Version: 1.17.0-12-g2a12474fb-2025.03.30.16.00
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-ros-comm - ROS communications-related packages, including core client librar
+Changes:
+ ros-one-ros-comm (1.17.0-12-g2a12474fb-2025.03.30.16.00) bookworm; urgency=high
+Checksums-Sha1:
+ e31b8bd8224807b33f46b48e2fc3689693e3b55a 7182 ros-one-ros-comm_1.17.0-12-g2a12474fb-2025.03.30.16.00_amd64.buildinfo
+ c39ac4c7fa31adc996c706def8002753f1ab8f8f 3800 ros-one-ros-comm_1.17.0-12-g2a12474fb-2025.03.30.16.00_amd64.deb
+Checksums-Sha256:
+ 74e16a93c090a97614798ac666e4ee00d18dfb5db4db9ee7665d05665c09a40b 7182 ros-one-ros-comm_1.17.0-12-g2a12474fb-2025.03.30.16.00_amd64.buildinfo
+ 0c3154883dcd64202353521e874cbc0922eb72071f9a74af337ea87de1406379 3800 ros-one-ros-comm_1.17.0-12-g2a12474fb-2025.03.30.16.00_amd64.deb
+Files:
+ fc53feafec72b9bed58c5b94e9f21185 7182 misc optional ros-one-ros-comm_1.17.0-12-g2a12474fb-2025.03.30.16.00_amd64.buildinfo
+ 173fc6d5a52a65afdce3cc2742f6b720 3800 misc optional ros-one-ros-comm_1.17.0-12-g2a12474fb-2025.03.30.16.00_amd64.deb

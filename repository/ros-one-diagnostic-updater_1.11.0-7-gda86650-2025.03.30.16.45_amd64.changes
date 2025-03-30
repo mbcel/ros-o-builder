@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 31 Dec 2021 00:00:00 -0000
+Source: ros-one-diagnostic-updater
+Binary: ros-one-diagnostic-updater ros-one-diagnostic-updater-dbgsym
+Built-For-Profiles: nocheck
+Architecture: amd64
+Version: 1.11.0-7-gda86650-2025.03.30.16.45
+Distribution: bookworm
+Urgency: high
+Maintainer: Guglielmo Gemignani <guglielmo.gemignani@gmail.com>
+Changed-By: Guglielmo Gemignani <guglielmo.gemignani@gmail.com>
+Description:
+ ros-one-diagnostic-updater - diagnostic_updater contains tools for easily updating diagnostics
+Changes:
+ ros-one-diagnostic-updater (1.11.0-7-gda86650-2025.03.30.16.45) bookworm; urgency=high
+ .
+   * Use DiagnosticLevel enum instead of hardcoded integers (#208 <https://github.com/ros/diagnostics/issues/208>)
+     Spellcheck fixes
+   * Contributors: Amilcar Lucas
+Checksums-Sha1:
+ 460b20b82421601d41c8271b57160cd004a206f0 367700 ros-one-diagnostic-updater-dbgsym_1.11.0-7-gda86650-2025.03.30.16.45_amd64.deb
+ 75237fee48cdcfce45f31e81a155c8cf6949f2bb 12160 ros-one-diagnostic-updater_1.11.0-7-gda86650-2025.03.30.16.45_amd64.buildinfo
+ 6039fbfa9fe569a870c5c3d663a227d2d1e3fe6f 59744 ros-one-diagnostic-updater_1.11.0-7-gda86650-2025.03.30.16.45_amd64.deb
+Checksums-Sha256:
+ c7115e5b419e76c7198238d0b69d3e93168e7276f860b538c6c97dca46ebbf70 367700 ros-one-diagnostic-updater-dbgsym_1.11.0-7-gda86650-2025.03.30.16.45_amd64.deb
+ 4b455183acb9197a02d118012ebbdb0922d4c00bb1ba56a42fd1a97e4978b364 12160 ros-one-diagnostic-updater_1.11.0-7-gda86650-2025.03.30.16.45_amd64.buildinfo
+ 375514e60c40b2b6bee0a755f1cf91d499d238c77626a4cc727a0f7516b64e1d 59744 ros-one-diagnostic-updater_1.11.0-7-gda86650-2025.03.30.16.45_amd64.deb
+Files:
+ 8711d57c22a152cf981da7bee44b04cc 367700 debug optional ros-one-diagnostic-updater-dbgsym_1.11.0-7-gda86650-2025.03.30.16.45_amd64.deb
+ a780cd2331ad28c4385f3cdd2d208dc4 12160 misc optional ros-one-diagnostic-updater_1.11.0-7-gda86650-2025.03.30.16.45_amd64.buildinfo
+ 029c4c9f2363784e94e7667ac4e2c94a 59744 misc optional ros-one-diagnostic-updater_1.11.0-7-gda86650-2025.03.30.16.45_amd64.deb

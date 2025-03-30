@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 13 Sep 2024 00:00:00 -0000
+Source: ros-one-rosparam
+Binary: ros-one-rosparam
+Built-For-Profiles: nocheck
+Architecture: amd64
+Version: 1.17.0-12-g2a12474fb-2025.03.30.16.04
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-rosparam - rosparam contains the rosparam command-line tool for getting and
+Changes:
+ ros-one-rosparam (1.17.0-12-g2a12474fb-2025.03.30.16.04) bookworm; urgency=high
+Checksums-Sha1:
+ 7c31808f460a478257157012998023ff09a39d74 7185 ros-one-rosparam_1.17.0-12-g2a12474fb-2025.03.30.16.04_amd64.buildinfo
+ 042c8bbe58bddec2b9496452d61fd728b32b20fe 22656 ros-one-rosparam_1.17.0-12-g2a12474fb-2025.03.30.16.04_amd64.deb
+Checksums-Sha256:
+ a2470fdd2f5b946bf9c2a769b93bbe8d1d399ef98325edd6b1ac4fb8ceabbe7e 7185 ros-one-rosparam_1.17.0-12-g2a12474fb-2025.03.30.16.04_amd64.buildinfo
+ f01313cdc89129462f1ee686fdfda9e1d685ae51ebf754453aebaf0d512d48af 22656 ros-one-rosparam_1.17.0-12-g2a12474fb-2025.03.30.16.04_amd64.deb
+Files:
+ 733e63690f6311885f75c69d7b7d3579 7185 misc optional ros-one-rosparam_1.17.0-12-g2a12474fb-2025.03.30.16.04_amd64.buildinfo
+ 06acf5252f0ea6a474b182c45da6ed93 22656 misc optional ros-one-rosparam_1.17.0-12-g2a12474fb-2025.03.30.16.04_amd64.deb

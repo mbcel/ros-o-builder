@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Wed, 13 May 2020 00:00:00 -0000
+Source: ros-one-rospack
+Binary: ros-one-rospack ros-one-rospack-dbgsym
+Built-For-Profiles: nocheck
+Architecture: amd64
+Version: 2.6.2-2-gad85a87-2025.03.30.15.34
+Distribution: bookworm
+Urgency: high
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Changed-By: Jacob Perron <jacob@openrobotics.org>
+Description:
+ ros-one-rospack - ROS Package Tool
+Changes:
+ ros-one-rospack (2.6.2-2-gad85a87-2025.03.30.15.34) bookworm; urgency=high
+ .
+   * fix umask for rospack cache files, regression from 2.5.4 (#119 <https://github.com/ros/rospack/issues/119>)
+Checksums-Sha1:
+ b807659f9577bd43edbe8fbf81590c07ce9e8db5 1424564 ros-one-rospack-dbgsym_2.6.2-2-gad85a87-2025.03.30.15.34_amd64.deb
+ a343a3a70c2f34dbf95dac2b981ce581b139b504 8493 ros-one-rospack_2.6.2-2-gad85a87-2025.03.30.15.34_amd64.buildinfo
+ 0d42debd31e6172550c082ca69d315af3082e208 101468 ros-one-rospack_2.6.2-2-gad85a87-2025.03.30.15.34_amd64.deb
+Checksums-Sha256:
+ 013d2e54b042b1f3f61cc0b3bf2c03e6728ab2285cda8f9c8d9f0dd3f159a8dd 1424564 ros-one-rospack-dbgsym_2.6.2-2-gad85a87-2025.03.30.15.34_amd64.deb
+ d83a470986fd30f48808563ce7a0d76749f64092bd4f0468b160f8033ab150c7 8493 ros-one-rospack_2.6.2-2-gad85a87-2025.03.30.15.34_amd64.buildinfo
+ e0bcb54750fc2e0366a298a8a936088f901d9ca3df728fb0e527f04a38082af4 101468 ros-one-rospack_2.6.2-2-gad85a87-2025.03.30.15.34_amd64.deb
+Files:
+ ac8062b8398d6f15cdb0d78f5ef6fb9d 1424564 debug optional ros-one-rospack-dbgsym_2.6.2-2-gad85a87-2025.03.30.15.34_amd64.deb
+ d508cfd8079681b7856dab7f3c55b10a 8493 misc optional ros-one-rospack_2.6.2-2-gad85a87-2025.03.30.15.34_amd64.buildinfo
+ 08d09da8b3bdc62459c5a19906b72d9e 101468 misc optional ros-one-rospack_2.6.2-2-gad85a87-2025.03.30.15.34_amd64.deb

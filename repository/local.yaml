@@ -1,0 +1,384 @@
+python:
+  debian:
+    - python3-dev
+libfltk-dev:
+  debian:
+    - libfltk1.3-dev
+    - fluid # needed because libfltk1.3-dev is broken without it in bookworm
+log4cxx:
+  debian:
+    - liblog4cxx-dev
+netpbm:
+  debian:
+    - libnetpbm-dev
+python-imaging:
+  debian:
+    - python3-pil
+
+collada-dom:
+  debian:
+    - libcollada-dom2.4-dp-dev
+collada_parser:
+  debian:
+    - libcollada-parser-dev
+collada_urdf:
+  debian:
+    - libcollada-urdf-dev
+
+gazebo11:
+  debian:
+    - gazebo
+
+libogre-dev:
+  debian:
+    - libogre-1.12-dev
+
+# added by myself
+setup_files:
+  debian: []
+
+rosbag_migration_rule:
+  debian: []
+
+# ignored in upstream rosdep too
+python-argparse:
+  debian: []
+
+# pre-noetic keys for the library used in package.xmls
+libuvc:
+  debian:
+    - libuvc-dev
+bfl:
+  debian:
+    - liborocos-bfl-dev
+python_orocos_kdl:
+  debian:
+    - python3-pykdl
+
+# does not exist (and shouldn't, because it was moved to moveit-resources)
+# but it's still referenced as conflicting with moveit_resources
+prbt_ikfast_manipulator_plugin:
+  debian:
+    - ros-one-prbt-ikfast-manipulator-plugin
+
+# not available in the default repositories due to licensing changes in the past
+# rosdep still needs to resolve it when building mongo client packages with run-time dependency
+mongodb:
+  debian: []
+# does not exist anymore from python 3.12
+python3-future:
+  debian: []
+
+# OR rosdep defines these runtime-only libraries (with versions), but that requires repeated updating here with each boost release.
+# debhelper generates the correct library dependencies anyway, so just ignore these keys
+libboost-thread:
+  debian: []
+liborocos-kdl:
+  debian: []
+
+# ignore pip dependencies as we cannot handle them
+python-chainer-pip:
+  debian: []
+python-fcn-pip:
+  debian: []
+python-gdown-pip:
+  debian: []
+python-pygithub3:
+  debian: []
+python-slacker-cli:
+  debian: []
+python-tabulate-pip:
+  debian:
+    - python3-tabulate
+
+genmsg:
+  debian:
+  - ros-one-genmsg
+gencpp:
+  debian:
+  - ros-one-gencpp
+geneus:
+  debian:
+  - ros-one-geneus
+genlisp:
+  debian:
+  - ros-one-genlisp
+gennodejs:
+  debian:
+  - ros-one-gennodejs
+genpy:
+  debian:
+  - ros-one-genpy
+actionlib_tools:
+  debian:
+  - ros-one-actionlib-tools
+cmake_modules:
+  debian:
+  - ros-one-cmake-modules
+class_loader:
+  debian:
+  - ros-one-class-loader
+common_msgs:
+  debian:
+  - ros-one-common-msgs
+cpp_common:
+  debian:
+  - ros-one-cpp-common
+diagnostics:
+  debian:
+  - ros-one-diagnostics
+image_common:
+  debian:
+  - ros-one-image-common
+message_generation:
+  debian:
+  - ros-one-message-generation
+message_runtime:
+  debian:
+  - ros-one-message-runtime
+mk:
+  debian:
+  - ros-one-mk
+opencv_tests:
+  debian:
+  - ros-one-opencv-tests
+ros:
+  debian:
+  - ros-one-ros
+ros_comm:
+  debian:
+  - ros-one-ros-comm
+ros_environment:
+  debian:
+  - ros-one-ros-environment
+rosbash:
+  debian:
+  - ros-one-rosbash
+rosboost_cfg:
+  debian:
+  - ros-one-rosboost-cfg
+rosbuild:
+  debian:
+  - ros-one-rosbuild
+rosclean:
+  debian:
+  - ros-one-rosclean
+roscpp_core:
+  debian:
+  - ros-one-roscpp-core
+roscpp_traits:
+  debian:
+  - ros-one-roscpp-traits
+roscreate:
+  debian:
+  - ros-one-roscreate
+rosdiagnostic:
+  debian:
+  - ros-one-rosdiagnostic
+rosgraph:
+  debian:
+  - ros-one-rosgraph
+roslang:
+  debian:
+  - ros-one-roslang
+roslint:
+  debian:
+  - ros-one-roslint
+roslisp:
+  debian:
+  - ros-one-roslisp
+rosmake:
+  debian:
+  - ros-one-rosmake
+rosmaster:
+  debian:
+  - ros-one-rosmaster
+rospack:
+  debian:
+  - ros-one-rospack
+rosparam:
+  debian:
+  - ros-one-rosparam
+rospy:
+  debian:
+  - ros-one-rospy
+rosservice:
+  debian:
+  - ros-one-rosservice
+rostime:
+  debian:
+  - ros-one-rostime
+roscpp_serialization:
+  debian:
+  - ros-one-roscpp-serialization
+roslaunch:
+  debian:
+  - ros-one-roslaunch
+rosunit:
+  debian:
+  - ros-one-rosunit
+setup_files:
+  debian:
+  - ros-one-setup-files
+roslib:
+  debian:
+  - ros-one-roslib
+rosconsole:
+  debian:
+  - ros-one-rosconsole
+pluginlib:
+  debian:
+  - ros-one-pluginlib
+roslz4:
+  debian:
+  - ros-one-roslz4
+rostest:
+  debian:
+  - ros-one-rostest
+std_msgs:
+  debian:
+  - ros-one-std-msgs
+actionlib_msgs:
+  debian:
+  - ros-one-actionlib-msgs
+diagnostic_msgs:
+  debian:
+  - ros-one-diagnostic-msgs
+geometry_msgs:
+  debian:
+  - ros-one-geometry-msgs
+nav_msgs:
+  debian:
+  - ros-one-nav-msgs
+rosgraph_msgs:
+  debian:
+  - ros-one-rosgraph-msgs
+shape_msgs:
+  debian:
+  - ros-one-shape-msgs
+std_srvs:
+  debian:
+  - ros-one-std-srvs
+test_roslib_comm:
+  debian:
+  - ros-one-test-roslib-comm
+trajectory_msgs:
+  debian:
+  - ros-one-trajectory-msgs
+vision_opencv:
+  debian:
+  - ros-one-vision-opencv
+visualization_msgs:
+  debian:
+  - ros-one-visualization-msgs
+xmlrpcpp:
+  debian:
+  - ros-one-xmlrpcpp
+roscpp:
+  debian:
+  - ros-one-roscpp
+rosout:
+  debian:
+  - ros-one-rosout
+diagnostic_aggregator:
+  debian:
+  - ros-one-diagnostic-aggregator
+diagnostic_updater:
+  debian:
+  - ros-one-diagnostic-updater
+diagnostic_common_diagnostics:
+  debian:
+  - ros-one-diagnostic-common-diagnostics
+message_filters:
+  debian:
+  - ros-one-message-filters
+rosbag_storage:
+  debian:
+  - ros-one-rosbag-storage
+rosmsg:
+  debian:
+  - ros-one-rosmsg
+rosnode:
+  debian:
+  - ros-one-rosnode
+rostopic:
+  debian:
+  - ros-one-rostopic
+self_test:
+  debian:
+  - ros-one-self-test
+test_diagnostic_aggregator:
+  debian:
+  - ros-one-test-diagnostic-aggregator
+test_rosbag_storage:
+  debian:
+  - ros-one-test-rosbag-storage
+test_roscpp:
+  debian:
+  - ros-one-test-roscpp
+test_rosgraph:
+  debian:
+  - ros-one-test-rosgraph
+test_roslaunch:
+  debian:
+  - ros-one-test-roslaunch
+test_rosmaster:
+  debian:
+  - ros-one-test-rosmaster
+test_rosparam:
+  debian:
+  - ros-one-test-rosparam
+topic_tools:
+  debian:
+  - ros-one-topic-tools
+rosbag:
+  debian:
+  - ros-one-rosbag
+actionlib:
+  debian:
+  - ros-one-actionlib
+diagnostic_analysis:
+  debian:
+  - ros-one-diagnostic-analysis
+roswtf:
+  debian:
+  - ros-one-roswtf
+sensor_msgs:
+  debian:
+  - ros-one-sensor-msgs
+camera_calibration_parsers:
+  debian:
+  - ros-one-camera-calibration-parsers
+cv_bridge:
+  debian:
+  - ros-one-cv-bridge
+image_geometry:
+  debian:
+  - ros-one-image-geometry
+image_transport:
+  debian:
+  - ros-one-image-transport
+camera_info_manager:
+  debian:
+  - ros-one-camera-info-manager
+polled_camera:
+  debian:
+  - ros-one-polled-camera
+stereo_msgs:
+  debian:
+  - ros-one-stereo-msgs
+test_rosbag:
+  debian:
+  - ros-one-test-rosbag
+test_rospy:
+  debian:
+  - ros-one-test-rospy
+test_rosservice:
+  debian:
+  - ros-one-test-rosservice
+test_rostest:
+  debian:
+  - ros-one-test-rostest
+test_rostopic:
+  debian:
+  - ros-one-test-rostopic

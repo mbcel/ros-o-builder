@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 31 Dec 2021 00:00:00 -0000
+Source: ros-one-rosdiagnostic
+Binary: ros-one-rosdiagnostic
+Built-For-Profiles: nocheck
+Architecture: amd64
+Version: 1.11.0-7-gda86650-2025.03.30.16.49
+Distribution: bookworm
+Urgency: high
+Maintainer: Guillaume Autran <gautran@clearpath.ai>
+Changed-By: Guillaume Autran <gautran@clearpath.ai>
+Description:
+ ros-one-rosdiagnostic - Command to print aggregated diagnostic contents to the command li
+Changes:
+ ros-one-rosdiagnostic (1.11.0-7-gda86650-2025.03.30.16.49) bookworm; urgency=high
+Checksums-Sha1:
+ 3c6216694ad2a9112a87e225e6a9b3b2021d8c8e 7198 ros-one-rosdiagnostic_1.11.0-7-gda86650-2025.03.30.16.49_amd64.buildinfo
+ f3403b9a33d93e02f216127f5f735cb4dc802688 12712 ros-one-rosdiagnostic_1.11.0-7-gda86650-2025.03.30.16.49_amd64.deb
+Checksums-Sha256:
+ 5df405d336c8730d776ad45c005da06f354d1b027a460defff75199c3f4b00a9 7198 ros-one-rosdiagnostic_1.11.0-7-gda86650-2025.03.30.16.49_amd64.buildinfo
+ 61d2adf94e8b4f1e22b5d4682025a833247df7be3e9e28524fa953db95d50b8f 12712 ros-one-rosdiagnostic_1.11.0-7-gda86650-2025.03.30.16.49_amd64.deb
+Files:
+ 5a161135f3bf57e3778d8b50eaa25204 7198 misc optional ros-one-rosdiagnostic_1.11.0-7-gda86650-2025.03.30.16.49_amd64.buildinfo
+ ed078a08e47ced80709d7607ba101424 12712 misc optional ros-one-rosdiagnostic_1.11.0-7-gda86650-2025.03.30.16.49_amd64.deb
