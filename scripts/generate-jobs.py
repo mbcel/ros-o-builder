@@ -17,9 +17,15 @@ SBUILD_OPTIONS = {
 def stages(ws):
     ws = deepcopy(ws)
     while ws.repositories:
-        if "setup_files" in ws.repositories or "ros_environment" in ws.repositories:
+        if "setup_files" in ws.repositories and "ros_environment" in ws.repositories:
             # these two are special because they are needed for the build environment
             stage = [ws.repositories["setup_files"], ws.repositories["ros_environment"]]
+        elif "ros_environment" in ws.repositories:
+            # these two are special because they are needed for the build environment
+            stage = [ws.repositories["ros_environment"]]
+        elif "setup_files" in ws.repositories:
+            # these two are special because they are needed for the build environment
+            stage = [ws.repositories["setup_files"]]
         else:
             # find all repositories without build dependencies
             stage = [r for r in ws.repositories.values()
