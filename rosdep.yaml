@@ -33,6 +33,13 @@ libogre-dev:
   debian:
     - libogre-1.12-dev
 
+# added by myself
+setup_files:
+  debian: []
+
+rosbag_migration_rule:
+  debian: []
+
 # ignored in upstream rosdep too
 python-argparse:
   debian: []
