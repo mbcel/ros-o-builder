@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 21 Jul 2021 00:00:00 -0000
+Source: ros-one-rosclean
+Binary: ros-one-rosclean
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.15.8-3-g136e18e9-2025.03.31.09.18
+Distribution: bookworm
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-rosclean - rosclean: cleanup filesystem resources (e.g.
+Changes:
+ ros-one-rosclean (1.15.8-3-g136e18e9-2025.03.31.09.18) bookworm; urgency=high
+ .
+   * Update maintainers (#272 <https://github.com/ros/ros/issues/272>)
+   * Contributors: Jacob Perron
+Checksums-Sha1:
+ 21db4bd610ee60f8758ef4f72f851fdcc393d477 7176 ros-one-rosclean_1.15.8-3-g136e18e9-2025.03.31.09.18_arm64.buildinfo
+ 4da7e1aa6befd327863dee34514c855525f5efe6 14860 ros-one-rosclean_1.15.8-3-g136e18e9-2025.03.31.09.18_arm64.deb
+Checksums-Sha256:
+ 3832dfa072bb4345e6a24894708167ee9efea07d08836d2a018ac0dd56fc6052 7176 ros-one-rosclean_1.15.8-3-g136e18e9-2025.03.31.09.18_arm64.buildinfo
+ a16b392f184ffed7af721fa6f6d3a0d5e57a791fd6bffb23cb2b4826700078a2 14860 ros-one-rosclean_1.15.8-3-g136e18e9-2025.03.31.09.18_arm64.deb
+Files:
+ e6332516c49613e6abb5321709b7475e 7176 misc optional ros-one-rosclean_1.15.8-3-g136e18e9-2025.03.31.09.18_arm64.buildinfo
+ 752cfbc4fcf82dee09ed1b8b3dfa5bd3 14860 misc optional ros-one-rosclean_1.15.8-3-g136e18e9-2025.03.31.09.18_arm64.deb

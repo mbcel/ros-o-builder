@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Wed, 21 Jul 2021 00:00:00 -0000
+Source: ros-one-rosunit
+Binary: ros-one-rosunit
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.15.8-3-g136e18e9-2025.03.31.09.21
+Distribution: bookworm
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-rosunit - Unit-testing package for ROS.
+Changes:
+ ros-one-rosunit (1.15.8-3-g136e18e9-2025.03.31.09.21) bookworm; urgency=high
+ .
+   * Gracefully handle missing time attribute in testcase XML element (#283 <https://github.com/ros/ros/issues/283>)
+   * Fix spelling (#277 <https://github.com/ros/ros/issues/277>)
+   * Update maintainers (#272 <https://github.com/ros/ros/issues/272>)
+   * Contributors: Jacob Perron, Romain Reignier, freddii
+Checksums-Sha1:
+ 50c4d893682f8b19d3a42607e945025b4642fcef 7171 ros-one-rosunit_1.15.8-3-g136e18e9-2025.03.31.09.21_arm64.buildinfo
+ dcafce7f15da6df043bacbf6441c44dd33bf16ba 63532 ros-one-rosunit_1.15.8-3-g136e18e9-2025.03.31.09.21_arm64.deb
+Checksums-Sha256:
+ 2ea1c3ff32abd50e121e164f1a0bb13637b424f2700aef429d894c4f9fc8ec52 7171 ros-one-rosunit_1.15.8-3-g136e18e9-2025.03.31.09.21_arm64.buildinfo
+ 252e85e78e5a9453e7b06d697cc9127cd1526387a3220f6c196d6af569d81be9 63532 ros-one-rosunit_1.15.8-3-g136e18e9-2025.03.31.09.21_arm64.deb
+Files:
+ 887758b4092769d95fc8160879b78c15 7171 misc optional ros-one-rosunit_1.15.8-3-g136e18e9-2025.03.31.09.21_arm64.buildinfo
+ af91affc933dd03fbf8b5f13bedd5d31 63532 misc optional ros-one-rosunit_1.15.8-3-g136e18e9-2025.03.31.09.21_arm64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 13 Sep 2024 00:00:00 -0000
+Source: ros-one-rosservice
+Binary: ros-one-rosservice
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.17.0-12-g2a12474fb-2025.03.31.09.51
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-rosservice - rosservice contains the rosservice command-line tool for listing
+Changes:
+ ros-one-rosservice (1.17.0-12-g2a12474fb-2025.03.31.09.51) bookworm; urgency=high
+ .
+   * Fixed uninitialized Time usage in rosservice call (#2369 <https://github.com/ros/ros_comm/issues/2369>)
+   * Contributors: Martin Pecka
+Checksums-Sha1:
+ 7dd1fa6f59e11942083a2fcacc8de2474158617f 7194 ros-one-rosservice_1.17.0-12-g2a12474fb-2025.03.31.09.51_arm64.buildinfo
+ ec2a06fc022e45b29aecb9ee7c4844b7f487bcf2 24764 ros-one-rosservice_1.17.0-12-g2a12474fb-2025.03.31.09.51_arm64.deb
+Checksums-Sha256:
+ a4b8478086f0cea95e763925aeaeba961e9c8b569e162ffb7f1bd44d7ed67d94 7194 ros-one-rosservice_1.17.0-12-g2a12474fb-2025.03.31.09.51_arm64.buildinfo
+ d768efba6226eff0714a7fa34cfe45eb40583fe00abbede81b5f167dc2e5d5e7 24764 ros-one-rosservice_1.17.0-12-g2a12474fb-2025.03.31.09.51_arm64.deb
+Files:
+ ff523ea5e4953eebbfd5158cc1f3ab8e 7194 misc optional ros-one-rosservice_1.17.0-12-g2a12474fb-2025.03.31.09.51_arm64.buildinfo
+ aa606da62937994fbef5340e35ce676b 24764 misc optional ros-one-rosservice_1.17.0-12-g2a12474fb-2025.03.31.09.51_arm64.deb

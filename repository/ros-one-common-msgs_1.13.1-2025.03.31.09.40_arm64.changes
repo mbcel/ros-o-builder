@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 11 Jan 2021 00:00:00 -0000
+Source: ros-one-common-msgs
+Binary: ros-one-common-msgs
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.13.1-2025.03.31.09.40
+Distribution: bookworm
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-common-msgs - common_msgs contains messages that are widely used by other ROS p
+Changes:
+ ros-one-common-msgs (1.13.1-2025.03.31.09.40) bookworm; urgency=high
+ .
+   * Update package maintainers (#168 <https://github.com/ros/common_msgs/issues/168>)
+   * Contributors: Michel Hidalgo
+Checksums-Sha1:
+ 76ee54dd1ba4511f1af55ffe53bd1572940df791 7140 ros-one-common-msgs_1.13.1-2025.03.31.09.40_arm64.buildinfo
+ 951f8f4880d6075c2a5eb6c7bbbf67ac761c2036 3236 ros-one-common-msgs_1.13.1-2025.03.31.09.40_arm64.deb
+Checksums-Sha256:
+ 50913a23156db02db7fe53e552e9b953ef98f486467b7c838edbeb7d23fe6d31 7140 ros-one-common-msgs_1.13.1-2025.03.31.09.40_arm64.buildinfo
+ 12ed77aa693333372e4b4eeeb0d038f73967c7bd2343c05dee11b0f861b8c1ae 3236 ros-one-common-msgs_1.13.1-2025.03.31.09.40_arm64.deb
+Files:
+ f03f84e0595079b5dd949c154059d31b 7140 misc optional ros-one-common-msgs_1.13.1-2025.03.31.09.40_arm64.buildinfo
+ 2a1c85fceb9034105f16f6357b56992f 3236 misc optional ros-one-common-msgs_1.13.1-2025.03.31.09.40_arm64.deb

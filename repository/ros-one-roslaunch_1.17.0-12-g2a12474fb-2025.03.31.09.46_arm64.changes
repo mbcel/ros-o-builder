@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 13 Sep 2024 00:00:00 -0000
+Source: ros-one-roslaunch
+Binary: ros-one-roslaunch
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.17.0-12-g2a12474fb-2025.03.31.09.46
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-roslaunch - roslaunch is a tool for easily launching multiple ROS nodes local
+Changes:
+ ros-one-roslaunch (1.17.0-12-g2a12474fb-2025.03.31.09.46) bookworm; urgency=high
+ .
+   * Check if ignore_unset_args is set in xmlloader (#2217 <https://github.com/ros/ros_comm/issues/2217>)
+   * Remove Python 2 on Windows workaround (#2364 <https://github.com/ros/ros_comm/issues/2364>)
+   * Contributors: Griffin Tabor, Shingo Kitagawa
+Checksums-Sha1:
+ 561bd51b3cd8b97461bb9beccf12541d884bfad6 7192 ros-one-roslaunch_1.17.0-12-g2a12474fb-2025.03.31.09.46_arm64.buildinfo
+ ce062c2fc33758e86ac362d6bd782dcca226f0b0 189444 ros-one-roslaunch_1.17.0-12-g2a12474fb-2025.03.31.09.46_arm64.deb
+Checksums-Sha256:
+ 47327a2917cb5fd281decd278c511610df120437f1ab6a740cea278d0cde1c3b 7192 ros-one-roslaunch_1.17.0-12-g2a12474fb-2025.03.31.09.46_arm64.buildinfo
+ e8dc0b56412dcafe7475e456c1aaacf5cd8782818cd8690e342cbac7e7b9dcf0 189444 ros-one-roslaunch_1.17.0-12-g2a12474fb-2025.03.31.09.46_arm64.deb
+Files:
+ bd903cfec748d465cebb0fb6da79b5a8 7192 misc optional ros-one-roslaunch_1.17.0-12-g2a12474fb-2025.03.31.09.46_arm64.buildinfo
+ 32bf0d8dff743aebead786b30bb51d1c 189444 misc optional ros-one-roslaunch_1.17.0-12-g2a12474fb-2025.03.31.09.46_arm64.deb

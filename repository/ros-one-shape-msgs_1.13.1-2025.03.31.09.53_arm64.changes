@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 11 Jan 2021 00:00:00 -0000
+Source: ros-one-shape-msgs
+Binary: ros-one-shape-msgs
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.13.1-2025.03.31.09.53
+Distribution: bookworm
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-shape-msgs - This package contains messages for defining shapes, such as simpl
+Changes:
+ ros-one-shape-msgs (1.13.1-2025.03.31.09.53) bookworm; urgency=high
+ .
+   * Update package maintainers (#168 <https://github.com/ros/common_msgs/issues/168>)
+   * Contributors: Michel Hidalgo
+Checksums-Sha1:
+ e2bfcd0808cf3c49c7ad77f691324c8aa47293e0 8727 ros-one-shape-msgs_1.13.1-2025.03.31.09.53_arm64.buildinfo
+ bb744621c570e62322469f61875885f5099c7a9d 25884 ros-one-shape-msgs_1.13.1-2025.03.31.09.53_arm64.deb
+Checksums-Sha256:
+ b98aa09cae2d8eed18973c3834f9cdc4c51add70f0ecdca6b05dd5c46c9ceeba 8727 ros-one-shape-msgs_1.13.1-2025.03.31.09.53_arm64.buildinfo
+ 4d21b45432099473aef5dd25fb37848e5329344919d3ae67252233aa6200c1cb 25884 ros-one-shape-msgs_1.13.1-2025.03.31.09.53_arm64.deb
+Files:
+ 3dc9f03db60ba9378881cfd895015cd7 8727 misc optional ros-one-shape-msgs_1.13.1-2025.03.31.09.53_arm64.buildinfo
+ 6a59b4fd60153d29a222969255e77668 25884 misc optional ros-one-shape-msgs_1.13.1-2025.03.31.09.53_arm64.deb

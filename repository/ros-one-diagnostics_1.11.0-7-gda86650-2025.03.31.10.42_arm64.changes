@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 31 Dec 2021 00:00:00 -0000
+Source: ros-one-diagnostics
+Binary: ros-one-diagnostics
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.11.0-7-gda86650-2025.03.31.10.42
+Distribution: bookworm
+Urgency: high
+Maintainer: Guglielmo Gemignani <guglielmo.gemignani@gmail.com>
+Changed-By: Guglielmo Gemignani <guglielmo.gemignani@gmail.com>
+Description:
+ ros-one-diagnostics - diagnostics
+Changes:
+ ros-one-diagnostics (1.11.0-7-gda86650-2025.03.31.10.42) bookworm; urgency=high
+Checksums-Sha1:
+ 04b128fc6a8997064dc0bac888075a6d1f1e4ea4 7184 ros-one-diagnostics_1.11.0-7-gda86650-2025.03.31.10.42_arm64.buildinfo
+ 1de2b45ef8f8cedcc3947fbbc9c21356a0691f57 2968 ros-one-diagnostics_1.11.0-7-gda86650-2025.03.31.10.42_arm64.deb
+Checksums-Sha256:
+ 9bb9c678038d7ff19a52f98a508c15668cc5173b02b8521bc1f2745ead79b9d1 7184 ros-one-diagnostics_1.11.0-7-gda86650-2025.03.31.10.42_arm64.buildinfo
+ b5364d018e3b7e550094c3a85f186e61ef1de7a5877bbfca8da29df669edbe99 2968 ros-one-diagnostics_1.11.0-7-gda86650-2025.03.31.10.42_arm64.deb
+Files:
+ d5e6f16ac194c2803460278495623857 7184 misc optional ros-one-diagnostics_1.11.0-7-gda86650-2025.03.31.10.42_arm64.buildinfo
+ fd61f428c1c3cf355c2f1fd1dec9b004 2968 misc optional ros-one-diagnostics_1.11.0-7-gda86650-2025.03.31.10.42_arm64.deb

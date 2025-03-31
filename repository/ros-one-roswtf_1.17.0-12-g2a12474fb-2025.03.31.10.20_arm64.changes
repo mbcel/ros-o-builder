@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 13 Sep 2024 00:00:00 -0000
+Source: ros-one-roswtf
+Binary: ros-one-roswtf
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.17.0-12-g2a12474fb-2025.03.31.10.20
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-roswtf - roswtf is a tool for diagnosing issues with a running ROS system.
+Changes:
+ ros-one-roswtf (1.17.0-12-g2a12474fb-2025.03.31.10.20) bookworm; urgency=high
+Checksums-Sha1:
+ 122327004a04567e52dcbc41552cbd2a3077e2cd 11623 ros-one-roswtf_1.17.0-12-g2a12474fb-2025.03.31.10.20_arm64.buildinfo
+ ea3c93f896ad4675a89ca652305c5a3facefc2ac 56344 ros-one-roswtf_1.17.0-12-g2a12474fb-2025.03.31.10.20_arm64.deb
+Checksums-Sha256:
+ 739e7048de1d1124b27f4207f360c0b44364b1899e6f7edf83c3f531f5d5c3f3 11623 ros-one-roswtf_1.17.0-12-g2a12474fb-2025.03.31.10.20_arm64.buildinfo
+ b990e9e9cb7163db4e88fa10cbf3fcce3106a935ab9a79a2a9437bc2884095d8 56344 ros-one-roswtf_1.17.0-12-g2a12474fb-2025.03.31.10.20_arm64.deb
+Files:
+ b1d6bb4055e8f2c5475ce632abae1706 11623 misc optional ros-one-roswtf_1.17.0-12-g2a12474fb-2025.03.31.10.20_arm64.buildinfo
+ c6a0f286af9a1a0bd18e9eb10ff8eadd 56344 misc optional ros-one-roswtf_1.17.0-12-g2a12474fb-2025.03.31.10.20_arm64.deb

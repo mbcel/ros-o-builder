@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 26 Sep 2022 00:00:00 -0000
+Source: ros-one-gencpp
+Binary: ros-one-gencpp
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 0-2025.03.31.09.04
+Distribution: bookworm
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ ros-one-gencpp - C++ ROS message and service generators.
+Changes:
+ ros-one-gencpp (0-2025.03.31.09.04) bookworm; urgency=high
+ .
+   * Fix usage of deprecated std::allocator::rebind (#51 <https://github.com/ros/gencpp/issues/51>)
+   * Remove unnecessary map include (#48 <https://github.com/ros/gencpp/issues/48>)
+   * Contributors: Markus Vieth, poggenhans
+Checksums-Sha1:
+ ed485bb5246efaba82f421d6e2f706a6a787a3da 7154 ros-one-gencpp_0-2025.03.31.09.04_arm64.buildinfo
+ dca37a38e18d20873d7353c9d9a8a14c261c7649 17360 ros-one-gencpp_0-2025.03.31.09.04_arm64.deb
+Checksums-Sha256:
+ a5f6ce13bd38f477454364b14ffb71f1fb5ca1aa18865ac9146088ebf965d7d4 7154 ros-one-gencpp_0-2025.03.31.09.04_arm64.buildinfo
+ f208981390c94eefc1b52135260f669c9932e5fe6c9283179fb209f9fda7af24 17360 ros-one-gencpp_0-2025.03.31.09.04_arm64.deb
+Files:
+ 32db8b66f40d4aa3023440cdb16247bb 7154 misc optional ros-one-gencpp_0-2025.03.31.09.04_arm64.buildinfo
+ 8467166f516ab12e25c07208a2e2438a 17360 misc optional ros-one-gencpp_0-2025.03.31.09.04_arm64.deb

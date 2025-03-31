@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 13 Sep 2024 00:00:00 -0000
+Source: ros-one-rostest
+Binary: ros-one-rostest
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.17.0-12-g2a12474fb-2025.03.31.09.52
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-rostest - Integration test suite based on roslaunch that is compatible with
+Changes:
+ ros-one-rostest (1.17.0-12-g2a12474fb-2025.03.31.09.52) bookworm; urgency=high
+ .
+   * Add new rostest utility subscribetest (#2184 <https://github.com/ros/ros_comm/issues/2184>)
+   * Fix use of undelcared variable t_start (#2183 <https://github.com/ros/ros_comm/issues/2183>)
+   * Fix rostest target names when build directory is inside source directory (#2361 <https://github.com/ros/ros_comm/issues/2361>)
+   * Contributors: Kei Okada, Michael Görner
+Checksums-Sha1:
+ 671b6859d89d3310ce188d6bbea2c3cfcd8330da 9080 ros-one-rostest_1.17.0-12-g2a12474fb-2025.03.31.09.52_arm64.buildinfo
+ f69805858d7fc822ce5e9636e359658c622f06bf 38576 ros-one-rostest_1.17.0-12-g2a12474fb-2025.03.31.09.52_arm64.deb
+Checksums-Sha256:
+ 6037d5c014e57aa5805dd4b5de9a437866bb07a3ec181ceb6de338de6b316dc6 9080 ros-one-rostest_1.17.0-12-g2a12474fb-2025.03.31.09.52_arm64.buildinfo
+ 04eaaab2af6467b578db5b444ea34721cc7e75ed089ce2def9a214f7c54c8aed 38576 ros-one-rostest_1.17.0-12-g2a12474fb-2025.03.31.09.52_arm64.deb
+Files:
+ 60713ea434a0211beae9c6be7206a8cc 9080 misc optional ros-one-rostest_1.17.0-12-g2a12474fb-2025.03.31.09.52_arm64.buildinfo
+ e21ee2d88633e9a739d87aa8b48af79f 38576 misc optional ros-one-rostest_1.17.0-12-g2a12474fb-2025.03.31.09.52_arm64.deb

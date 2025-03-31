@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 21 Jul 2021 00:00:00 -0000
+Source: ros-one-rosbuild
+Binary: ros-one-rosbuild
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.15.8-3-g136e18e9-2025.03.31.09.17
+Distribution: bookworm
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-rosbuild - rosbuild contains scripts for managing the CMake-based build syst
+Changes:
+ ros-one-rosbuild (1.15.8-3-g136e18e9-2025.03.31.09.17) bookworm; urgency=high
+ .
+   * Fix spelling (#277 <https://github.com/ros/ros/issues/277>)
+   * Update maintainers (#272 <https://github.com/ros/ros/issues/272>)
+   * Contributors: Jacob Perron, freddii
+Checksums-Sha1:
+ e355b7846080d3a58ecda918ed1b50732883c4f6 7176 ros-one-rosbuild_1.15.8-3-g136e18e9-2025.03.31.09.17_arm64.buildinfo
+ bfeb7dd748744708508b2c01d310333db4cc5b90 28604 ros-one-rosbuild_1.15.8-3-g136e18e9-2025.03.31.09.17_arm64.deb
+Checksums-Sha256:
+ 34c22aa72b0efb78ffd833336b89636da57c244b69cc739b950d01b861992360 7176 ros-one-rosbuild_1.15.8-3-g136e18e9-2025.03.31.09.17_arm64.buildinfo
+ 7566adc709ee9fc5190f7e988de8db209009e01999fa0c3078d21fbe6248e502 28604 ros-one-rosbuild_1.15.8-3-g136e18e9-2025.03.31.09.17_arm64.deb
+Files:
+ 59fbed9c7fdfefa8410cddc3ac048ba0 7176 misc optional ros-one-rosbuild_1.15.8-3-g136e18e9-2025.03.31.09.17_arm64.buildinfo
+ 394671a72d94bda8ac81342448276d63 28604 misc optional ros-one-rosbuild_1.15.8-3-g136e18e9-2025.03.31.09.17_arm64.deb

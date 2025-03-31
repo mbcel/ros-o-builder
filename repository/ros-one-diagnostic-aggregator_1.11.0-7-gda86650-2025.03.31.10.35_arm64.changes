@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 31 Dec 2021 00:00:00 -0000
+Source: ros-one-diagnostic-aggregator
+Binary: ros-one-diagnostic-aggregator ros-one-diagnostic-aggregator-dbgsym
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.11.0-7-gda86650-2025.03.31.10.35
+Distribution: bookworm
+Urgency: high
+Maintainer: Guglielmo Gemignani <guglielmo.gemignani@gmail.com>
+Changed-By: Guglielmo Gemignani <guglielmo.gemignani@gmail.com>
+Description:
+ ros-one-diagnostic-aggregator - diagnostic_aggregator
+Changes:
+ ros-one-diagnostic-aggregator (1.11.0-7-gda86650-2025.03.31.10.35) bookworm; urgency=high
+ .
+   * Use DiagnosticLevel enum instead of hardcoded integers (#208 <https://github.com/ros/diagnostics/issues/208>)
+     Spellcheck fixes
+   * Add install command for demo in CMakeLists
+   * Contributors: Amilcar Lucas, gemignani
+Checksums-Sha1:
+ 226ce2395ee56799c2da1bd257c50ad4cab3505d 4106252 ros-one-diagnostic-aggregator-dbgsym_1.11.0-7-gda86650-2025.03.31.10.35_arm64.deb
+ 6d3a806e7311bb9f62d5837d08a478fa5e81bdf8 14765 ros-one-diagnostic-aggregator_1.11.0-7-gda86650-2025.03.31.10.35_arm64.buildinfo
+ b655c9abab8d5fcf43169fe33dcaf7c2601efecb 250988 ros-one-diagnostic-aggregator_1.11.0-7-gda86650-2025.03.31.10.35_arm64.deb
+Checksums-Sha256:
+ 2cc6c0d977ec128c24f6d8aa0ef5b72eff45fe5c0f5caf0dbab351a3b5f78fb6 4106252 ros-one-diagnostic-aggregator-dbgsym_1.11.0-7-gda86650-2025.03.31.10.35_arm64.deb
+ 98d418c1a8170bbcfdb2fa8dc63850ceba47105232fed011eb91e91bacd1b01e 14765 ros-one-diagnostic-aggregator_1.11.0-7-gda86650-2025.03.31.10.35_arm64.buildinfo
+ 39b2ce6b925dafd12651c8d9fa0118645d3288972b4419fff8cbe499941efa92 250988 ros-one-diagnostic-aggregator_1.11.0-7-gda86650-2025.03.31.10.35_arm64.deb
+Files:
+ 821d81e55e97a08eb447650d4ea94dfd 4106252 debug optional ros-one-diagnostic-aggregator-dbgsym_1.11.0-7-gda86650-2025.03.31.10.35_arm64.deb
+ c4719a570223d67612b026e9295ae8a9 14765 misc optional ros-one-diagnostic-aggregator_1.11.0-7-gda86650-2025.03.31.10.35_arm64.buildinfo
+ 22895ac0a53504a87d4055fb1ebedef8 250988 misc optional ros-one-diagnostic-aggregator_1.11.0-7-gda86650-2025.03.31.10.35_arm64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 31 Dec 2021 00:00:00 -0000
+Source: ros-one-diagnostic-analysis
+Binary: ros-one-diagnostic-analysis
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.11.0-7-gda86650-2025.03.31.10.37
+Distribution: bookworm
+Urgency: high
+Maintainer: Guglielmo Gemignani <guglielmo.gemignani@gmail.com>
+Changed-By: Guglielmo Gemignani <guglielmo.gemignani@gmail.com>
+Description:
+ ros-one-diagnostic-analysis - The diagnostic_analysis package can convert a log of diagnostics
+Changes:
+ ros-one-diagnostic-analysis (1.11.0-7-gda86650-2025.03.31.10.37) bookworm; urgency=high
+ .
+   * Fix type comparison for python3 (#194 <https://github.com/ros/diagnostics/issues/194>)
+   * Contributors: Mikael Arguedas
+Checksums-Sha1:
+ 54784a23ea322b473d00cdf2e3154e424fd70849 14240 ros-one-diagnostic-analysis_1.11.0-7-gda86650-2025.03.31.10.37_arm64.buildinfo
+ cf08cc216837ac9eacee4a1d6667fe390f5d8452 15040 ros-one-diagnostic-analysis_1.11.0-7-gda86650-2025.03.31.10.37_arm64.deb
+Checksums-Sha256:
+ bb9910f6030ad61191e2be06ea30cce4ecb855d161c7f710794570e043d2acdc 14240 ros-one-diagnostic-analysis_1.11.0-7-gda86650-2025.03.31.10.37_arm64.buildinfo
+ 45bab6522c8d153b766e0f2806ffcfe6eb1cded9e8fdf50230e08b2422a60294 15040 ros-one-diagnostic-analysis_1.11.0-7-gda86650-2025.03.31.10.37_arm64.deb
+Files:
+ a0d0d814b77e7710fa902e3593ec337d 14240 misc optional ros-one-diagnostic-analysis_1.11.0-7-gda86650-2025.03.31.10.37_arm64.buildinfo
+ b7d9957f519f53ea1e874d2f9e44a891 15040 misc optional ros-one-diagnostic-analysis_1.11.0-7-gda86650-2025.03.31.10.37_arm64.deb

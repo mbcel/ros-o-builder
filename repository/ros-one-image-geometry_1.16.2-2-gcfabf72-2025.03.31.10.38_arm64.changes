@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 03 Oct 2022 00:00:00 -0000
+Source: ros-one-image-geometry
+Binary: ros-one-image-geometry ros-one-image-geometry-dbgsym
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.16.2-2-gcfabf72-2025.03.31.10.38
+Distribution: bookworm
+Urgency: high
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Changed-By: Vincent Rabaud <vincent.rabaud@gmail.com>
+Description:
+ ros-one-image-geometry - `image_geometry` contains C++ and Python libraries for interpreti
+Changes:
+ ros-one-image-geometry (1.16.2-2-gcfabf72-2025.03.31.10.38) bookworm; urgency=high
+ .
+   * Add fovX and fovY functions in python, cpp, also some typo fixes (#428 <https://github.com/ros-perception/vision_opencv/issues/428>)
+   * Contributors: Chris Thierauf, Kenji Brameld
+Checksums-Sha1:
+ 1ca723afb2791f790888d681f87fe5d7dcff8dee 247216 ros-one-image-geometry-dbgsym_1.16.2-2-gcfabf72-2025.03.31.10.38_arm64.deb
+ ddbc456ef9e6d9d0e0e27120ac37983522a5bbae 19565 ros-one-image-geometry_1.16.2-2-gcfabf72-2025.03.31.10.38_arm64.buildinfo
+ aeab75f91d78058787525a6bc95d802dbab766b6 34644 ros-one-image-geometry_1.16.2-2-gcfabf72-2025.03.31.10.38_arm64.deb
+Checksums-Sha256:
+ 919866ee5c9619836965e889a3c2dcdfc32053966d3830579bd7ed8bd8d86b71 247216 ros-one-image-geometry-dbgsym_1.16.2-2-gcfabf72-2025.03.31.10.38_arm64.deb
+ 7edb004f7985620b554d56c5b4cb8986cb61c1d576cd894bd94dbff2fc574530 19565 ros-one-image-geometry_1.16.2-2-gcfabf72-2025.03.31.10.38_arm64.buildinfo
+ a9a72e415d256eb3d53ccff0198943332273bd1f1d01de872993c447f99a68e6 34644 ros-one-image-geometry_1.16.2-2-gcfabf72-2025.03.31.10.38_arm64.deb
+Files:
+ 4b27cb406e88259b5b8a0427b3e0ae18 247216 debug optional ros-one-image-geometry-dbgsym_1.16.2-2-gcfabf72-2025.03.31.10.38_arm64.deb
+ 587499740b40a0d9471a198a8688b473 19565 misc optional ros-one-image-geometry_1.16.2-2-gcfabf72-2025.03.31.10.38_arm64.buildinfo
+ 5bf8174f586878f5493b9bfd2b37c7a5 34644 misc optional ros-one-image-geometry_1.16.2-2-gcfabf72-2025.03.31.10.38_arm64.deb

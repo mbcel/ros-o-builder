@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 15 Jun 2023 00:00:00 -0000
+Source: ros-one-roscpp-traits
+Binary: ros-one-roscpp-traits
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 0.7.3-3-gcae00b4-2025.03.31.08.58
+Distribution: bookworm
+Urgency: high
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Changed-By: Martin Pecka <peckama2@fel.cvut.cz>
+Description:
+ ros-one-roscpp-traits - roscpp_traits contains the message traits code as described in Me
+Changes:
+ ros-one-roscpp-traits (0.7.3-3-gcae00b4-2025.03.31.08.58) bookworm; urgency=high
+ .
+   * Changed maintainer to Martin Pecka
+   * Contributors: Martin Pecka
+Checksums-Sha1:
+ fae444accd093baef14c72619e9d61e4b34fb7cb 7193 ros-one-roscpp-traits_0.7.3-3-gcae00b4-2025.03.31.08.58_arm64.buildinfo
+ 16f9cfb645f09f8edebd731278469a22d8572a22 10892 ros-one-roscpp-traits_0.7.3-3-gcae00b4-2025.03.31.08.58_arm64.deb
+Checksums-Sha256:
+ cefdcf5e396f526030c493d60c51754d56bd36c2d366702d4a2bf94e3b92a6b5 7193 ros-one-roscpp-traits_0.7.3-3-gcae00b4-2025.03.31.08.58_arm64.buildinfo
+ f2aaf9103f111375dd2f2879a1081e27ec4401f0cb373db74835c49b1963efe6 10892 ros-one-roscpp-traits_0.7.3-3-gcae00b4-2025.03.31.08.58_arm64.deb
+Files:
+ c3e25cdfb6bc08f0804a364b5f90b206 7193 misc optional ros-one-roscpp-traits_0.7.3-3-gcae00b4-2025.03.31.08.58_arm64.buildinfo
+ 5286c71849ee53c49f11aed2eb40b845 10892 misc optional ros-one-roscpp-traits_0.7.3-3-gcae00b4-2025.03.31.08.58_arm64.deb

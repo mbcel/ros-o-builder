@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 31 Dec 2021 00:00:00 -0000
+Source: ros-one-diagnostic-updater
+Binary: ros-one-diagnostic-updater ros-one-diagnostic-updater-dbgsym
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.11.0-7-gda86650-2025.03.31.10.39
+Distribution: bookworm
+Urgency: high
+Maintainer: Guglielmo Gemignani <guglielmo.gemignani@gmail.com>
+Changed-By: Guglielmo Gemignani <guglielmo.gemignani@gmail.com>
+Description:
+ ros-one-diagnostic-updater - diagnostic_updater contains tools for easily updating diagnostics
+Changes:
+ ros-one-diagnostic-updater (1.11.0-7-gda86650-2025.03.31.10.39) bookworm; urgency=high
+ .
+   * Use DiagnosticLevel enum instead of hardcoded integers (#208 <https://github.com/ros/diagnostics/issues/208>)
+     Spellcheck fixes
+   * Contributors: Amilcar Lucas
+Checksums-Sha1:
+ 8d1c2be4a5a6e3ace133a123051381e23d890fbc 365768 ros-one-diagnostic-updater-dbgsym_1.11.0-7-gda86650-2025.03.31.10.39_arm64.deb
+ e6076ed19250c6f3db7d7b2966146e2f60096cef 12159 ros-one-diagnostic-updater_1.11.0-7-gda86650-2025.03.31.10.39_arm64.buildinfo
+ 5b08d284df72f8aacc8ba4bbf10850bfefdb21e0 58576 ros-one-diagnostic-updater_1.11.0-7-gda86650-2025.03.31.10.39_arm64.deb
+Checksums-Sha256:
+ bd51886f05198bad29046f79c627067d8201c7e5739a6ecde2b17521b3663ce6 365768 ros-one-diagnostic-updater-dbgsym_1.11.0-7-gda86650-2025.03.31.10.39_arm64.deb
+ a2e71e8bfe01605d48e176cbd4c4aa8090eb000ab9e0aed1dd5068c1c0642ec2 12159 ros-one-diagnostic-updater_1.11.0-7-gda86650-2025.03.31.10.39_arm64.buildinfo
+ 2cf509b8287daac014922d76f6e03371d10633920deb24678d0e5df693fc6b57 58576 ros-one-diagnostic-updater_1.11.0-7-gda86650-2025.03.31.10.39_arm64.deb
+Files:
+ ec527ebcbe394776b8c6d5a8380dc820 365768 debug optional ros-one-diagnostic-updater-dbgsym_1.11.0-7-gda86650-2025.03.31.10.39_arm64.deb
+ 17fce5f103aeb4d16098ba8e8c3f5220 12159 misc optional ros-one-diagnostic-updater_1.11.0-7-gda86650-2025.03.31.10.39_arm64.buildinfo
+ ab6309b18a12c121f35634b3b88c52bb 58576 misc optional ros-one-diagnostic-updater_1.11.0-7-gda86650-2025.03.31.10.39_arm64.deb

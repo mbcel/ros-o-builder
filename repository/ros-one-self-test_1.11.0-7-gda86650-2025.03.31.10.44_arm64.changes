@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 31 Dec 2021 00:00:00 -0000
+Source: ros-one-self-test
+Binary: ros-one-self-test ros-one-self-test-dbgsym
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.11.0-7-gda86650-2025.03.31.10.44
+Distribution: bookworm
+Urgency: high
+Maintainer: Guglielmo Gemignani <guglielmo.gemignani@gmail.com>
+Changed-By: Guglielmo Gemignani <guglielmo.gemignani@gmail.com>
+Description:
+ ros-one-self-test - self_test
+Changes:
+ ros-one-self-test (1.11.0-7-gda86650-2025.03.31.10.44) bookworm; urgency=high
+Checksums-Sha1:
+ 139a196a02a6001020e9011f0979fafaa80ea601 2000340 ros-one-self-test-dbgsym_1.11.0-7-gda86650-2025.03.31.10.44_arm64.deb
+ 003c89527161f47c1977acabbeeeb4bac8688430 12152 ros-one-self-test_1.11.0-7-gda86650-2025.03.31.10.44_arm64.buildinfo
+ 2ffd09e185a146cfd79e01e543d5f034eb9d2d4c 150100 ros-one-self-test_1.11.0-7-gda86650-2025.03.31.10.44_arm64.deb
+Checksums-Sha256:
+ 36749168da83294047f9e7b9842823ebcad21d1f6a2886dca4470edc37587067 2000340 ros-one-self-test-dbgsym_1.11.0-7-gda86650-2025.03.31.10.44_arm64.deb
+ 0755b93b585c12ad9ede6609fc1b397cdd6f06b2a69485f73c0fc03c232baaf8 12152 ros-one-self-test_1.11.0-7-gda86650-2025.03.31.10.44_arm64.buildinfo
+ 9ab868d821cc572076bbbb5ea377852c8e16e4e01ee35483c3530af85f05ad69 150100 ros-one-self-test_1.11.0-7-gda86650-2025.03.31.10.44_arm64.deb
+Files:
+ 51cd1a4e98294610118ba06aed6071da 2000340 debug optional ros-one-self-test-dbgsym_1.11.0-7-gda86650-2025.03.31.10.44_arm64.deb
+ 4da3a40c60186ca47db35798fa4b3e82 12152 misc optional ros-one-self-test_1.11.0-7-gda86650-2025.03.31.10.44_arm64.buildinfo
+ 8c87fa347827ca41e236d9d603bb868d 150100 misc optional ros-one-self-test_1.11.0-7-gda86650-2025.03.31.10.44_arm64.deb

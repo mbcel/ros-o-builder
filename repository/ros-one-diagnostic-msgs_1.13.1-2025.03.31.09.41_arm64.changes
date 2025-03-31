@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 11 Jan 2021 00:00:00 -0000
+Source: ros-one-diagnostic-msgs
+Binary: ros-one-diagnostic-msgs
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.13.1-2025.03.31.09.41
+Distribution: bookworm
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-diagnostic-msgs - This package holds the diagnostic messages which provide the stan
+Changes:
+ ros-one-diagnostic-msgs (1.13.1-2025.03.31.09.41) bookworm; urgency=high
+ .
+   * Update package maintainers (#168 <https://github.com/ros/common_msgs/issues/168>)
+   * Contributors: Michel Hidalgo
+Checksums-Sha1:
+ baeccb6e4c034d53a7d0389bc01276ab2ad082c4 8700 ros-one-diagnostic-msgs_1.13.1-2025.03.31.09.41_arm64.buildinfo
+ 38efa15987a62efcdad6e39088c191640a4cc201 36372 ros-one-diagnostic-msgs_1.13.1-2025.03.31.09.41_arm64.deb
+Checksums-Sha256:
+ 50db9b627449a7bd24894c2627b010b28a55c7d7755987ad3bebadfeb038930a 8700 ros-one-diagnostic-msgs_1.13.1-2025.03.31.09.41_arm64.buildinfo
+ 6e3457c9fa10c0ed34c4e837f93cef01f51b648cf9f0bb7d20d26bbd2d60ec59 36372 ros-one-diagnostic-msgs_1.13.1-2025.03.31.09.41_arm64.deb
+Files:
+ cd7ff0cbca5590c6e80bad386f3143ad 8700 misc optional ros-one-diagnostic-msgs_1.13.1-2025.03.31.09.41_arm64.buildinfo
+ b31f606c2a395e57249731214dcf4bda 36372 misc optional ros-one-diagnostic-msgs_1.13.1-2025.03.31.09.41_arm64.deb

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 13 Sep 2024 00:00:00 -0000
+Source: ros-one-rosmaster
+Binary: ros-one-rosmaster
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.17.0-12-g2a12474fb-2025.03.31.09.48
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-rosmaster - ROS Master implementation.
+Changes:
+ ros-one-rosmaster (1.17.0-12-g2a12474fb-2025.03.31.09.48) bookworm; urgency=high
+Checksums-Sha1:
+ 72b02f6a71979c94fdfc66651b6bef3d2c2660fe 7189 ros-one-rosmaster_1.17.0-12-g2a12474fb-2025.03.31.09.48_arm64.buildinfo
+ 95a863eeeb03c9e5d2fed6f97898df788eb24fe2 54444 ros-one-rosmaster_1.17.0-12-g2a12474fb-2025.03.31.09.48_arm64.deb
+Checksums-Sha256:
+ 56b54cad376012d3ca525d1d1dc0c16bd6563c9586d8c67f4ada9c684d591430 7189 ros-one-rosmaster_1.17.0-12-g2a12474fb-2025.03.31.09.48_arm64.buildinfo
+ fcc2cd6ef92fa0a6439765d69c2b5a775f6289b1347564501782ab1f0d0e37aa 54444 ros-one-rosmaster_1.17.0-12-g2a12474fb-2025.03.31.09.48_arm64.deb
+Files:
+ ee07789a1a4e2135e0cf9282c897d417 7189 misc optional ros-one-rosmaster_1.17.0-12-g2a12474fb-2025.03.31.09.48_arm64.buildinfo
+ 44dbf6aa03a05fb95fc2bce15897da0e 54444 misc optional ros-one-rosmaster_1.17.0-12-g2a12474fb-2025.03.31.09.48_arm64.deb

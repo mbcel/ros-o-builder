@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 11 Jan 2021 00:00:00 -0000
+Source: ros-one-nav-msgs
+Binary: ros-one-nav-msgs
+Built-For-Profiles: nocheck
+Architecture: arm64
+Version: 1.13.1-2025.03.31.09.44
+Distribution: bookworm
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-nav-msgs - nav_msgs defines the common messages used to interact with the na
+Changes:
+ ros-one-nav-msgs (1.13.1-2025.03.31.09.44) bookworm; urgency=high
+ .
+   * Update package maintainers (#168 <https://github.com/ros/common_msgs/issues/168>)
+   * Add LoadMap service (#164 <https://github.com/ros/common_msgs/issues/164>)
+   * Contributors: David V. Lu!!, Michel Hidalgo
+Checksums-Sha1:
+ f713bb6585e66aa058e5fba6f909aa5fce8dd3fa 8770 ros-one-nav-msgs_1.13.1-2025.03.31.09.44_arm64.buildinfo
+ 3eebbf282d79bf872c70c9f23c8d434e66e7b13e 79164 ros-one-nav-msgs_1.13.1-2025.03.31.09.44_arm64.deb
+Checksums-Sha256:
+ 358f97e66c8226eecb53131d1ff6ac95f502f503a7ac2b258c0fe8b5e8668379 8770 ros-one-nav-msgs_1.13.1-2025.03.31.09.44_arm64.buildinfo
+ a733e41bb1ec75be1b6dd01ad826ed8b772dc773a678c2a9d7cd49b80649a341 79164 ros-one-nav-msgs_1.13.1-2025.03.31.09.44_arm64.deb
+Files:
+ 70b6cbd24b66abd5b18a32909000723d 8770 misc optional ros-one-nav-msgs_1.13.1-2025.03.31.09.44_arm64.buildinfo
+ fa6294072adbd58124ec8cb85c21f878 79164 misc optional ros-one-nav-msgs_1.13.1-2025.03.31.09.44_arm64.deb
